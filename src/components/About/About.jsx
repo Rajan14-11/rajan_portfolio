@@ -2,11 +2,14 @@ import { Typography } from "@mui/material";
 import React from "react";
 import "./About.css";
 
-const About = ({about}) => {
+const About = ({ about }) => {
   return (
     <div className="about">
       <div className="aboutContainer">
-        <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae id labore accusamus! </Typography>
+        <Typography>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae id
+          labore accusamus!{" "}
+        </Typography>
       </div>
       <div className="aboutContainer2">
         <div>
@@ -39,7 +42,8 @@ const About = ({about}) => {
               textAlign: "right",
             }}
           >
-            I am a webDeveloper specialised in Frontend. I have worked on technologies like React JS , Nextjs, Typescript and Tailwind Css.
+            I am a webDeveloper specialised in Frontend. I have worked on
+            technologies like React JS , Nextjs, Typescript and Tailwind Css.
             Also made some projects with MERN stack.
           </Typography>
         </div>

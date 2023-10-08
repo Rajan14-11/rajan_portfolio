@@ -7,6 +7,13 @@ import { FaRegSmileWink } from "react-icons/fa";
 import { deleteProject, getUser } from "../../actions/user";
 import { useDispatch } from "react-redux";
 import iosSolutionImage from "../../images/iosSolutionProject.png"
+import TailorAppUser from "../../images/tailorProject.png"
+import openInApp from "../../images/open-in-app.png";
+import seclanceProject from "../../images/seclanceProject.png";
+import webLancer from "../../images/webLancer.png";
+import toDoList from "../../images/to-do-list.png";
+import teslaClone from "../../images/teslaClone.png";
+import Vulnbounty from "../../images/vulnbounty.png";
 
 export const ProjectCard = ({
   url,
@@ -67,13 +74,73 @@ const Projects = () => {
     },
     {
       url: "https://seclance.vercel.app/",
-      projectImage: iosSolutionImage,
+      projectImage: seclanceProject,
       projectTitle: "Seclance",
       description:
         "A single page application built to display info about a repairing center.",
       technologies: "Next JS, Tailwind Css Javascript",
       isAdmin: false,
-      id: 1,
+      id: 2,
+    },
+    {
+      url: "https://tailor-user-app.netlify.app/",
+      projectImage: TailorAppUser,
+      projectTitle: "Tailor App User",
+      description:
+        "A multi page application built for ordering products from tailors.",
+      technologies: "Next JS, Tailwind Css Javascript Typescript",
+      isAdmin: false,
+      id: 3,
+    },
+    {
+      url: "https://teslaclone-xi.vercel.app/",
+      projectImage: teslaClone,
+      projectTitle: "TeslaClone",
+      description:
+        "A tesla clone static site to display the information of tesla cars.",
+      technologies: "Firebase ReactJs MaterialUI",
+      isAdmin: false,
+      id: 4,
+    },
+    {
+      url: "https://to-do-list-a64ea.web.app/",
+      projectImage: toDoList,
+      projectTitle: "To Do List",
+      description:
+        "A ToDo List application built to add our daily life todos saved over the database.",
+      technologies: "Firebase ReactJs MaterialUI",
+      isAdmin: false,
+      id: 5,
+    },
+    {
+      url: "https://weblancer.vercel.app/",
+      projectImage: webLancer,
+      projectTitle: "WebLancer",
+      description:
+        "A platform to demonstrate different freelancers. Its a static site.",
+      technologies: "NextJs TailwindCSS",
+      isAdmin: false,
+      id: 6,
+    },
+    {
+      url: "https://open-in-app-tau.vercel.app/",
+      projectImage: openInApp,
+      projectTitle: "Dashboard",
+      description:
+        "A google authenticated dashboard integrated with live apis and charts to display data.",
+      technologies: "NextJs TailwindCSS chartJs APIs NEXT Auth",
+      isAdmin: false,
+      id: 7,
+    },
+    {
+      url: "https://vulbounty-latest.vercel.app/",
+      projectImage: Vulnbounty,
+      projectTitle: "Vulnbounty (Worked under Seclance)",
+      description:
+        "A bounty application having authentication and dashboard with payment integration.",
+      technologies: "React Js, Tailwind CSS, Axios",
+      isAdmin: false,
+      id: 7,
     },
   ];
   return (
