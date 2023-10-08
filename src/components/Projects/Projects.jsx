@@ -14,6 +14,8 @@ import webLancer from "../../images/webLancer.png";
 import toDoList from "../../images/to-do-list.png";
 import teslaClone from "../../images/teslaClone.png";
 import Vulnbounty from "../../images/vulnbounty.png";
+import ColorProject from "../../images/color-website.png";
+import daisyUi from "../../images/daisyui.png";
 
 export const ProjectCard = ({
   url,
@@ -139,6 +141,26 @@ const Projects = () => {
       description:
         "A bounty application having authentication and dashboard with payment integration.",
       technologies: "React Js, Tailwind CSS, Axios",
+      isAdmin: false,
+      id: 7,
+    },
+    {
+      url: "https://rajan14-11.github.io/simple-color-website/color.html",
+      projectImage: ColorProject,
+      projectTitle: "Simple Color Website",
+      description:
+        "A fully responsive static website dispalying different color uses.",
+      technologies: "HTML, CSS, JS",
+      isAdmin: false,
+      id: 8,
+    },
+    {
+      url: "https://daisyui-theme.vercel.app/",
+      projectImage: daisyUi,
+      projectTitle: "DaisyUi Theme",
+      description:
+        "A fully responsive static website dispalying info about cybersecurity website.",
+      technologies: "Next JS, Tailwind CSS, DaisyUI",
       isAdmin: false,
       id: 7,
     },

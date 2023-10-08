@@ -270,6 +270,17 @@
   background-color: whitesmoke;
 }
 
+@media (max-width:760px) {
+  .homeProjectscontainer{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media (max-width:460px) {
+  .homeProjectscontainer{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
 @keyframes cubeRotation {
   to {
     transform: rotateY(360deg) rotateX(480deg) rotateZ(720deg);
