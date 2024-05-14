@@ -16,6 +16,7 @@ import teslaClone from "../../images/teslaClone.png";
 import Vulnbounty from "../../images/vulnbounty.png";
 import ColorProject from "../../images/color-website.png";
 import daisyUi from "../../images/daisyui.png";
+import trelloDevImage from "../../images/trelloDevImage.png"
 
 export const ProjectCard = ({
   url,
@@ -65,6 +66,16 @@ export const ProjectCard = ({
 const Projects = () => {
   const projects = [
     {
+      url: "https://trello-dev-three.vercel.app/",
+      projectImage: trelloDevImage,
+      projectTitle: "Trello Clone",
+      description:
+        "A trello clone to manage your daily tasks with drag and drop functionality. ",
+      technologies: "Next JS, Tailwind Css, Clerk, Prisma, MongoDB and Server actions",
+      isAdmin: false,
+      id: 10,
+    },
+    {
       url: "https://iossolution.vercel.app/",
       projectImage: iosSolutionImage,
       projectTitle: "IosSolution",
@@ -75,7 +86,7 @@ const Projects = () => {
       id: 1,
     },
     {
-      url: "https://seclance.vercel.app/",
+      url: "https://seclance-website.vercel.app/",
       projectImage: seclanceProject,
       projectTitle: "Seclance",
       description:
@@ -162,7 +173,7 @@ const Projects = () => {
         "A fully responsive static website dispalying info about cybersecurity website.",
       technologies: "Next JS, Tailwind CSS, DaisyUI",
       isAdmin: false,
-      id: 7,
+      id: 9,
     },
   ];
   return (
